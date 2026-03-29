@@ -1,0 +1,78 @@
+/* 기본 페이지 설정 */
+body {
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 공통 컨테이너 */
+.container {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* 스타일 1: 스포티 다크 */
+.dark-theme {
+    background-color: #1a1a1a;
+}
+.logo-sporty {
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: -3px;
+}
+.logo-sporty span {
+    color: #00e5ff;
+}
+.logo-sporty::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #00e5ff, transparent);
+    margin-top: -5px;
+}
+
+/* 스타일 2: 미니멀 라이트 */
+.light-theme {
+    background-color: #ffffff;
+}
+.logo-minimal {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-minimal::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #ff3d00;
+    border-radius: 50%;
+}
