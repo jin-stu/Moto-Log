@@ -1,6 +1,11 @@
 # CHANGELOG - 모토로그(Motolog)
 모든 변경 사항은 프로젝트 형상관리 지침에 따라 기록됩니다.
 
+## [v1.3.0] - 2026-04-16
+기준선(Baseline): **requirements_freeze**
+* [DOCS-04]: 프로젝트 관리 계획서 일정 변경
+  - SPRINT1 지연에 의한 일정 변경
+
 ## [v1.2.0] - 2026-04-13
 기준선(Baseline): **requirements_freeze**
 * [DOCS-03]: 프로젝트 관리 계획서 규칙 적용
