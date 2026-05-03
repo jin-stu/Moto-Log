@@ -1,6 +1,14 @@
 # CHANGELOG - 모토로그(Motolog)
 모든 변경 사항은 프로젝트 형상관리 지침에 따라 기록됩니다.
 
+## [v1.4.0] - 2026-05-03
+기준선(Baseline): **design_complete**
+* [FEAT-02]: 대시보드 프로토타입 UI 및 SPA 로직 구현
+- React Native 전환을 고려한 확장형 폴더 구조(views, css, js) 세팅
+- 스포티 다크 테마 기반의 메인 대시보드 그리드 레이아웃(HTML/CSS) 작성
+- 바닐라 JS를 활용한 SPA(Single Page Application) 방식의 상세 화면 전환 로직 구현
+- 아이콘 영역 고정 및 PC/모바일 반응형 스크롤 뷰 적용
+
 ## [v1.3.0] - 2026-04-16
 기준선(Baseline): **requirements_freeze**
 * [DOCS-04]: 프로젝트 관리 계획서 일정 변경
