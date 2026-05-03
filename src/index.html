@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모토로그(Moto-Log) 대시보드</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <h1 class="logo-sporty">모토<span>로그</span></h1>
+    </header>
+
+    <main class="main-wrapper">
+        <!-- 대시보드 화면 -->
+        <section id="dashboard-view" class="view active">
+            <div class="card-grid">
+                <div class="card" data-feature="maintenance">
+                    <div class="icon">🔧</div>
+                    <h3>스마트 소모품 관리</h3>
+                </div>
+                <div class="card" data-feature="custom">
+                    <div class="icon">🏍️</div>
+                    <h3>디지털 튜닝 기록</h3>
+                </div>
+                <div class="card" data-feature="gps">
+                    <div class="icon">📍</div>
+                    <h3>GPS 라이딩 로그</h3>
+                </div>
+                <div class="card" data-feature="cost">
+                    <div class="icon">💰</div>
+                    <h3>연비 및 가계부</h3>
+                </div>
+                <div class="card" data-feature="cert">
+                    <div class="icon">📄</div>
+                    <h3>중고 거래 상태 인증</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- 기능 상세 모의 화면 -->
+        <section id="detail-view" class="view hidden">
+            <button id="back-btn" class="back-btn">⬅ 뒤로 가기</button>
+            <div class="detail-content">
+                <h2 id="detail-title">기능 제목</h2>
+                <p id="detail-desc">기능 설명이 이곳에 표시됩니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
