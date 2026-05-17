@@ -1,6 +1,13 @@
 # CHANGELOG - 모토로그(Motolog)
 모든 변경 사항은 프로젝트 형상관리 지침에 따라 기록됩니다.
 
+## [v1.6.0] - 2026-05-17
+기준선(Baseline): **requirements_freeze** (또는 **design_ready**)
+* [DOCS-06]: 요구사항 분석서 v1.0.0 등록
+  - 유스케이스 다이어그램 및 7종의 상세 명세서(U_01~U_07) 수립
+  - 사용자, 관리자, 시스템 등 핵심 클래스 7종에 대한 CRC 카드 정적 분석 완료
+  - 시퀀스 흐름을 통한 동적 분석 및 요구사항 추적표(Requirement Traceability Matrix) 작성
+
 ## [v1.5.0] - 2026-05-10
 기준선(Baseline): **requirements_freeze**
 * [DOCS-05]: 요구사항 정의서 v1.0.0 작성 및 등록
