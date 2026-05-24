@@ -1,6 +1,13 @@
 # CHANGELOG - 모토로그(Motolog)
 모든 변경 사항은 프로젝트 형상관리 지침에 따라 기록됩니다.
 
+## [v1.7.0] - 2026-05-24
+기준선(Baseline): **design_complete**
+* [DOCS-07]: 소프트웨어 설계서 v1.0.0 작성 및 등록
+  - 구조 설계 (Static): 도메인 중심의 3대 패키지(UserMgmt, MaintenanceMgmt, RidingLog) 분할 및 시스템(Controller)과 바이크 객체 중심의 클래스 다이어그램 설계
+  - 행위 설계 (Dynamic): 소셜 로그인 요청 흐름, 이력 기반 PDF 인증서 엔진 빌드 프로세스, 3~5초 주기 GPS 위치 수집 및 지도 시각화(Polyline) 로직에 대한 시퀀스 다이어그램 명세 완료
+  - 화면 설계 (UI/UX): 로그인, 메인 대시보드(소모품 게이지), 바이크 등록, 라이딩 화면, 커스텀 북, 가계부(통계 차트), 상태 인증서 등 7개 핵심 인터페이스 모바일 앱 UI 와이어프레임 확정
+
 ## [v1.6.0] - 2026-05-17
 기준선(Baseline): **requirements_freeze** (또는 **design_ready**)
 * [DOCS-06]: 요구사항 분석서 v1.0.0 등록
